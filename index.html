@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Magic</title>
+
+    <style>
+      h2 { font-size: medium; }
+      td { font-size: medium; }
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+    </style> 
+  </head>
+  <body>  
+<form>
+<table>
+  <tr>
+    <td>
+    <table>
+      <tr bgcolor="#ffffff">
+        <td align="center">
+          <h2>Table 1</h2>
+        </td>
+        <td align="center">
+          <table cellspacing="2" cellpadding="2" bgcolor="#000000">
+            <tr bgcolor="#ffffff">
+              <td align="center">1</td>
+              <td align="center">3</td>
+              <td align="center">5</td>
+              <td align="center">7</td>
+              <td align="center">9</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">11</td>
+              <td align="center">13</td>
+              <td align="center">15</td>
+              <td align="center">17</td>
+              <td align="center">19</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">21</td>
+              <td align="center">23</td>
+              <td align="center">25</td>
+              <td align="center">27</td>
+              <td align="center">29</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">31</td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+            </tr>
+          </table>
+        </td>
+        <td align="center">
+          <p>Is your number here?</p>
+          <input type="radio" id="t1y" name="t1" value="1">
+          <label for="t1y">YES</label>
+          <input type="radio" id="t1n" name="t1" value="0">
+          <label for="t1n">NO</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3"><hr /></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td align="center">
+          <h2>Table 2</h2>
+        </td>
+        <td align="center"> 
+          <table cellspacing="2" cellpadding="2" bgcolor="#000000">
+            <tr bgcolor="#ffffff">
+              <td align="center">2</td>
+              <td align="center">3</td>
+              <td align="center">6</td>
+              <td align="center">7</td>
+              <td align="center">10</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">11</td>
+              <td align="center">14</td>
+              <td align="center">15</td>
+              <td align="center">18</td>
+              <td align="center">19</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">22</td>
+              <td align="center">23</td>
+              <td align="center">26</td>
+              <td align="center">27</td>
+              <td align="center">30</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">31</td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+            </tr>
+          </table>
+        </td>
+        <td align="center">
+          <p>Is your number here?</p>
+          <input type="radio" id="t2y" name="t2" value="2">
+          <label for="t2y">YES</label>
+          <input type="radio" id="t2n" name="t2" value="0">
+          <label for="t2n">NO</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3"><hr /></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td align="center">
+          <h2>Table 3</h2>
+        </td>
+        <td align="center"> 
+          <table cellspacing="2" cellpadding="2" bgcolor="#000000">
+            <tr bgcolor="#ffffff">
+              <td align="center">4</td>
+              <td align="center">5</td>
+              <td align="center">6</td>
+              <td align="center">7</td>
+              <td align="center">12</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">13</td>
+              <td align="center">14</td>
+              <td align="center">15</td>
+              <td align="center">20</td>
+              <td align="center">21</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">22</td>
+              <td align="center">23</td>
+              <td align="center">28</td>
+              <td align="center">29</td>
+              <td align="center">30</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">31</td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+            </tr>
+          </table>
+        </td>
+        <td align="center">
+          <p>Is your number here?</p>
+          <input type="radio" id="t3y" name="t3" value="4">
+          <label for="t3y">YES</label>
+          <input type="radio" id="t3n" name="t3" value="0">
+          <label for="t3n">NO</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3"><hr /></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td align="center">
+          <h2>Table 4</h2>
+        </td>
+        <td align="center"> 
+          <table cellspacing="2" cellpadding="2" bgcolor="#000000">
+            <tr bgcolor="#ffffff">
+              <td align="center">8</td>
+              <td align="center">9</td>
+              <td align="center">10</td>
+              <td align="center">11</td>
+              <td align="center">12</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">13</td>
+              <td align="center">14</td>
+              <td align="center">15</td>
+              <td align="center">24</td>
+              <td align="center">25</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">26</td>
+              <td align="center">27</td>
+              <td align="center">28</td>
+              <td align="center">29</td>
+              <td align="center">30</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">31</td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+            </tr>
+          </table>
+        </td>
+        <td align="center">
+          <p>Is your number here?</p>
+          <input type="radio" id="t4y" name="t4" value="8">
+          <label for="t4y">YES</label>
+          <input type="radio" id="t4n" name="t4" value="0">
+          <label for="t4n">NO</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3"><hr /></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td align="center">
+          <h2>Table 5</h2>
+        </td>
+        <td align="center"> 
+          <table cellspacing="2" cellpadding="2" bgcolor="#000000">
+            <tr bgcolor="#ffffff">
+              <td align="center">16</td>
+              <td align="center">17</td>
+              <td align="center">18</td>
+              <td align="center">19</td>
+              <td align="center">20</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">21</td>
+              <td align="center">22</td>
+              <td align="center">23</td>
+              <td align="center">24</td>
+              <td align="center">25</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">26</td>
+              <td align="center">27</td>
+              <td align="center">28</td>
+              <td align="center">29</td>
+              <td align="center">30</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td align="center">31</td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+              <td align="center"> </td>
+            </tr>
+          </table>
+        </td>
+        <td align="center">
+          <p>Is your number here?</p>
+          <input type="radio" id="t5y" name="t5" value="16">
+          <label for="t5y">YES</label>
+          <input type="radio" id="t5n" name="t5" value="0">
+          <label for="t5n">NO</label>
+        </td>
+      </tr>
+    </table>
+    </td>
+    <td>
+    <table>
+      <tr>
+        <td align="center" class="vertical-center">
+          <h1 id="ans"> </h1>
+          <button onclick="magic(); return false;">Click to show magic number</button>
+        </td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+</form>
+  </body>
+<script>
+function magic() {
+
+let p1 = document.getElementsByName('t1');
+let p2 = document.getElementsByName('t2');
+let p3 = document.getElementsByName('t3');
+let p4 = document.getElementsByName('t4');
+let p5 = document.getElementsByName('t5');
+
+let result = 0;
+
+for (var i = 0, length = p1.length; i < length; i++) {
+  if (p1[i].checked) {
+    // do whatever you want with the checked radio
+    //alert(p1[i].value);
+    result += Number(p1[i].value);
+    // only one radio can be logically checked, don't check the rest
+    break;
+  }
+}
+
+for (var i = 0, length = p2.length; i < length; i++) {
+  if (p2[i].checked) {
+    // do whatever you want with the checked radio
+    //alert(p2[i].value);
+    result += Number(p2[i].value);
+    // only one radio can be logically checked, don't check the rest
+    break;
+  }
+}
+
+for (var i = 0, length = p3.length; i < length; i++) {
+  if (p3[i].checked) {
+    // do whatever you want with the checked radio
+    //alert(p3[i].value);
+    result += Number(p3[i].value);
+    // only one radio can be logically checked, don't check the rest
+    break;
+  }
+}
+
+for (var i = 0, length = p4.length; i < length; i++) {
+  if (p4[i].checked) {
+    // do whatever you want with the checked radio
+    //alert(p4[i].value);
+    result += Number(p4[i].value);
+    // only one radio can be logically checked, don't check the rest
+    break;
+  }
+}
+
+for (var i = 0, length = p5.length; i < length; i++) {
+  if (p5[i].checked) {
+    // do whatever you want with the checked radio
+    //alert(p5[i].value);
+    result += Number(p5[i].value);
+    // only one radio can be logically checked, don't check the rest
+    break;
+  }
+}
+
+
+document.getElementById("ans").innerHTML = result;
+//alert(result);
+
+};
+
+</script>
+</html>
